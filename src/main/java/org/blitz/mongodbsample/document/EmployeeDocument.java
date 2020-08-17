@@ -54,5 +54,13 @@ public class EmployeeDocument {
         this.salary = salary;
     }
 
-
+    @Override
+    public String toString() {
+        return "EmployeeDocument{" +
+                "employeeId='" + employeeId + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
